@@ -20,4 +20,4 @@ $ ls
 
 $ cd Hack-fb
 
-$ python2 Mulai.py
+$ python2 Start.py
