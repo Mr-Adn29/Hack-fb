@@ -11,22 +11,6 @@ br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 
-os.system('clear')
-print'\x1b[1;92mSedang mulai program'
-time.sleep(1)
-print'\x1b[1;92mSabar cok'
-time.sleep(1)
-print'\x1b[1;92mGaskeeeeen !'
-time.sleep(1)
-os.system('clear')
-
-
-
-
-def keluar():
-    print '\x1b[1;91m[!] Keluar'
-    os.sys.exit()
-
 
 def jalan(z):
     for e in z + '\n':
@@ -35,8 +19,9 @@ def jalan(z):
         time.sleep(0.01)
 
 
-logo = '\x1b[1;92m\n\xe2\x95\x94\xe2\x95\xa6\xe2\x95\x97\xe2\x94\x8c\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x8c\xe2\x94\x80   \xe2\x95\x94\xe2\x95\x90\xe2\x95\x97\xe2\x95\x94\xe2\x95\x97 \n \xe2\x95\x91\xe2\x95\x91\xe2\x94\x9c\xe2\x94\x80\xe2\x94\xa4\xe2\x94\x9c\xe2\x94\xac\xe2\x94\x98\xe2\x94\x9c\xe2\x94\xb4\xe2\x94\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\xa0\xe2\x95\xa3 \xe2\x95\xa0\xe2\x95\xa9\xe2\x95\x97\n\xe2\x95\x90\xe2\x95\xa9\xe2\x95\x9d\xe2\x94\xb4 \xe2\x94\xb4\xe2\x94\xb4\xe2\x94\x94\xe2\x94\x80\xe2\x94\xb4 \xe2\x94\xb4   \xe2\x95\x9a  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \x1b[1;93mPremium\n\x1b[1;93m================================\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mAuthor \x1b[1;91m: \x1b[1;96mMr.29_+\n\x1b[1;93m* \x1b[1;97mGitHub  \x1b[1;91m: \x1b[1;92m\x1b[4mhttps://github.com/Mr-noob29\x1b[0m\nIzin, Baca di Readme.md\n'
-
+logo = "======================================================="
+       "                          Mr.29_+                      "
+       "======================================================="
 def tik():
     titik = [
      '.   ', '..  ', '... ']
