@@ -12,7 +12,7 @@ $ pip2 install mechanize
 
 $ pip2 install --upgrade pip
 
-$ git clone https://github.com/Mr-noob29/Hack-fb
+$ git clone https://github.com/Mr-Adn29/Hack-fb
 
 $ cd Hack-fb
 
