@@ -12,6 +12,8 @@ $ pip2 install mechanize
 
 $ pip2 install --upgrade pip
 
+$ pip2 install requests
+
 $ git clone https://github.com/Mr-Adn29/Hack-fb
 
 $ ls
